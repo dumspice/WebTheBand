@@ -1,0 +1,95 @@
+/* PC */
+@media (min-width: 1024px){
+    .search_menu .menu_icon{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .search_menu .menu_icon{
+        display: none;
+    }
+
+    .modal_container{
+        width: 700px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+    #mobile_menu{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .text-content{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+    
+    #nav > li{
+        display: block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #757575;
+    }
+
+    #nav .subnav a{
+        padding-left: 7%;
+        height: 50px;
+        border-bottom: 1px solid #000;
+        line-height: 50px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+/* set width of member pic to 100% */
+    .member_items{
+        margin: 15px 0;
+        width: 100%;
+    }
+    #content .mem-ava{
+        width: 60%;
+    }
+
+/* set width of tour pics to 100% */
+    .tour_items{
+        margin: 10px 0;
+        width: 100%;
+    }
+
+/* set width of contact items to 100% */
+    #content .content-section{
+      padding-bottom: 64px;  
+    }
+    .contact_items{
+        width: 100%;
+    }
+    .contact-info{
+        margin-bottom: 16px;
+    }
+
+    .modal_container{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .modal_container{
+        width: 400px;
+    }
+}
